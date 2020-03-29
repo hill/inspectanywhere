@@ -1,8 +1,9 @@
 <template lang="pug">
   section.section.book
     .container
-      .has-text-centered
+      .has-text-centered.head
         h1.title.is-1.has-text-primary.landing-title Book a scan
+        p Use the form below or email us at <a href='mailto:tom@inspectanywhere.com.au'>tom@inspectanywhere.com.au</a>
       .columns.is-centered
         .column.is-8
           form.form.box
@@ -81,6 +82,9 @@ export default {
 .landing-title {
   text-shadow: 3px 3px 0px $light-blue;
   font-size: 50px;
+}
+
+.head {
   margin-bottom: 70px;
 }
 

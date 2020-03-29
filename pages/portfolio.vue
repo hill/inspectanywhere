@@ -6,45 +6,45 @@
       .columns.is-multiline
         .column.is-4
           ScanCard(
-            address='36 Oxley Drive, Bowral' 
+            address='1 Phillip St, Burradoo' 
             agency='Duncan Hill Property' 
-            img='/scans/scan1.png' 
-            scanUrl='https://my.matterport.com/show/?m=5ogPbKSzMoi&brand=0'
+            img='/scans/1Phillip.png' 
+            scanUrl='https://my.matterport.com/show/?m=wMR31rrXZDS&brand=0'
           )
         .column.is-4
           ScanCard(
-            address='36 Oxley Drive, Bowral' 
+            address='88 Bendooley St, Bowral' 
             agency='Duncan Hill Property' 
-            img='/scans/scan1.png' 
-            scanUrl='https://my.matterport.com/show/?m=5ogPbKSzMoi&brand=0'
+            img='/scans/88Bendooley.png' 
+            scanUrl='https://my.matterport.com/show/?m=BQaA3bJGZWe&brand=0'
           )
         .column.is-4
           ScanCard(
-            address='36 Oxley Drive, Bowral' 
+            address='32 Kingsbury Cct, Bowral' 
             agency='Duncan Hill Property' 
-            img='/scans/scan1.png' 
-            scanUrl='https://my.matterport.com/show/?m=5ogPbKSzMoi&brand=0'
+            img='/scans/32Kingsbury.png' 
+            scanUrl='https://my.matterport.com/show/?m=AoQs3W5xoEY&brand=0'
           )
         .column.is-4
           ScanCard(
-            address='36 Oxley Drive, Bowral' 
+            address='184 Old South Road, Alpine' 
             agency='Duncan Hill Property' 
-            img='/scans/scan1.png' 
-            scanUrl='https://my.matterport.com/show/?m=5ogPbKSzMoi&brand=0'
+            img='/scans/184Old.png' 
+            scanUrl='https://my.matterport.com/show/?m=6unczcWtcxo&brand=0'
           )
 </template>
 
 <script>
-import Button from '~/components/Button'
-import ScanCard from '~/components/ScanCard'
+import Button from "~/components/Button";
+import ScanCard from "~/components/ScanCard";
 
 export default {
-  components: {Button, ScanCard}
-}
+  components: { Button, ScanCard }
+};
 </script>
 
 <style lang="scss" scoped>
-@import '~/assets/theme.scss';
+@import "~/assets/theme.scss";
 
 .landing-title {
   text-shadow: 3px 3px 0px $light-blue;
@@ -55,7 +55,7 @@ export default {
 .portfolio {
   position: relative;
   min-height: 1000px;
-  background-image: url('/bg_pattern.png');
+  background-image: url("/bg_pattern.png");
   background-repeat: no-repeat;
   background-position: 500px 0;
 }
