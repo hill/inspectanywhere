@@ -11,7 +11,7 @@
             img='/scans/1Phillip.png' 
             scanUrl='https://my.matterport.com/show/?m=wMR31rrXZDS&brand=0'
           )
-        .column.is-4
+        //- .column.is-4 // BAD SCAN
           ScanCard(
             address='88 Bendooley St, Bowral' 
             agency='Duncan Hill Property' 

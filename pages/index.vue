@@ -8,8 +8,8 @@ div
         h1.title.is-1.has-text-primary.landing-title Let buyers inspect your properties anywhere, anytime.
         p.has-text-black We offer 3d scanning services for the Sydney and adjacent regions, allowing you to let potential buyers into your properties, whenever (or wherever) they want!
         .cta.buttons
-          Button(styles='outline' size='medium') See our scans
-          Button(styles='primary' size='medium') Book a scan
+          Button(styles='outline' size='medium' href='/portfolio') See our scans
+          Button(styles='primary' size='medium' href='/book') Book a scan
     .columns.is-centered
       .column.is-10
         Alert
@@ -21,7 +21,7 @@ div
         h1.title.is-2 Some of our scans
       br
       .columns
-        .column.is-4
+        //- .column.is-4
           ScanCard(
             address='88 Bendooley St, Bowral' 
             img='/scans/88Bendooley.png' 
@@ -32,6 +32,12 @@ div
             address='1 Phillip St, Burradoo' 
             img='/scans/1Phillip.png' 
             scanUrl='https://my.matterport.com/show/?m=wMR31rrXZDS&brand=0'
+          )
+        .column.is-4
+          ScanCard(
+            address='184 Old South Road, Alpine' 
+            img='/scans/184Old.png' 
+            scanUrl='https://my.matterport.com/show/?m=6unczcWtcxo&brand=0'
           )
         .column.is-4
           ScanCard(
